@@ -1,0 +1,42 @@
+[
+ {
+  "message": "hey so i accidentally ordered the wrong size of those running shoes yesterday, order 77231, can you cancel it before it ships??",
+  "expected_intent": "cancel_order"
+ },
+ {
+  "message": "my card keeps getting declined at checkout even though i know theres money on it, whats going on!!",
+  "expected_intent": "payment_issue"
+ },
+ {
+  "message": "Where is my package? Order 52089 was supposed to arrive three days ago.",
+  "expected_intent": "track_order"
+ },
+ {
+  "message": "I forgot my password and the reset email never arrives. Help me get back into my account.",
+  "expected_intent": "recover_password"
+ },
+ {
+  "message": "What delivery options do you offer? Is there an express option?",
+  "expected_intent": "delivery_options"
+ },
+ {
+  "message": "Can you email me a PDF copy of my invoice from July? I need it for my expense report.",
+  "expected_intent": "get_invoice"
+ },
+ {
+  "message": "How do I sign up for your newsletter? I'd like to hear about sales.",
+  "expected_intent": "newsletter_subscription"
+ },
+ {
+  "message": "I want to leave a review for the jacket I bought, where do I do that?",
+  "expected_intent": "review"
+ },
+ {
+  "message": "I moved last week and need the delivery address on order 66120 updated to 14 Elm Street.",
+  "expected_intent": "change_shipping_address"
+ },
+ {
+  "message": "I returned my order two weeks ago, can you tell me where my refund is?",
+  "expected_intent": "track_refund"
+ }
+]

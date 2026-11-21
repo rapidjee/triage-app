@@ -1,0 +1,24 @@
+# model weights are ~1 GB: keep them out of git (host them on the Hugging Face Hub or Drive instead)
+final_model/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# notebooks / OS / editor
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.idea/
+
+# local run output and secrets
+m3_run/
+.env
+.streamlit/secrets.toml
